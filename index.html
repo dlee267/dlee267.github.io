@@ -1,65 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Dong Yoon Lee</title>
-
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dong Yoon Lee is a Ph.D. researcher at UC Merced working on multimodal sensing, foundation models, embedded systems, and human-centered IoT.">
+  <title>Dong Yoon Lee · Researcher in intelligent sensing systems</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Dong Yoon Lee, home">DYL</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a class="active" aria-current="page" href="index.html">Home</a>
+        <a href="#work">Work</a>
+        <a href="publications.html">Publications</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<main>
+  <main id="content">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Ph.D. researcher · UC Merced</p>
+        <h1>Building systems that <span>sense, reason, and adapt.</span></h1>
+        <p class="hero-lede">I develop multimodal sensing and machine-learning systems that connect foundation models, signal processing, embedded hardware, and real-world deployment.</p>
+        <div class="button-row">
+          <a class="button primary" href="#work">Explore my work</a>
+          <a class="button secondary" href="assets/dong-yoon-lee-cv.pdf">View master CV</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Research snapshot">
+        <p class="kicker">Research snapshot</p>
+        <dl class="stats">
+          <div><dt>13</dt><dd>peer-reviewed publications</dd></div>
+          <div><dt>2</dt><dd>best paper awards</dd></div>
+          <div><dt>4</dt><dd>connected research areas</dd></div>
+        </dl>
+        <p class="availability">Interested in research collaborations and industry research opportunities.</p>
+      </aside>
+    </section>
 
-    <h1>Dong Yoon Lee</h1>
+    <section class="section shell intro-grid" aria-labelledby="about-heading">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 id="about-heading">From physical signals to useful intelligence</h2>
+      </div>
+      <div class="prose large">
+        <p>I am a Ph.D. student in Electrical Engineering and Computer Science at the University of California, Merced. My work asks how physical systems can produce better data—and how learning systems can turn that data into robust, understandable decisions.</p>
+        <p>I work across vibration and acoustic sensing, human activity recognition, foundation models, LLM-guided workflows, adaptive structures, connected health, and environmental sensing. My research combines algorithms with prototypes and field deployments in lived-in homes.</p>
+      </div>
+    </section>
 
-    <p>
-        Ph.D. Student in Electrical Engineering and Computer Science
-        <br>
-        University of California, Merced
-    </p>
+    <section class="section section-tint" id="work" aria-labelledby="work-heading">
+      <div class="shell">
+        <div class="section-heading">
+          <div><p class="eyebrow">Research areas</p><h2 id="work-heading">Four views of the same problem</h2></div>
+          <p>How can sensing systems become more capable while remaining practical, efficient, and grounded in the physical world?</p>
+        </div>
+        <div class="card-grid two-col">
+          <a class="area-card cobalt" href="work/multimodal-ai.html"><span class="card-index">01</span><h3>Multimodal AI &amp; foundation models</h3><p>Cross-modal representations, temporal reasoning, language generation, and learning under limited labels.</p><span class="text-link">View this area <span aria-hidden="true">→</span></span></a>
+          <a class="area-card teal" href="work/health-sensing.html"><span class="card-index">02</span><h3>Health &amp; activity sensing</h3><p>Privacy-conscious systems for remote care, medication interactions, dental sensing, and daily activity.</p><span class="text-link">View this area <span aria-hidden="true">→</span></span></a>
+          <a class="area-card amber" href="work/physical-computing.html"><span class="card-index">03</span><h3>Adaptive &amp; embedded sensing</h3><p>Physical structures, constrained planning, embedded acquisition, and structure-assisted signal quality.</p><span class="text-link">View this area <span aria-hidden="true">→</span></span></a>
+          <a class="area-card violet" href="work/environmental-sensing.html"><span class="card-index">04</span><h3>Environmental intelligence</h3><p>Physics-guided learning, sparse urban monitoring, efficient sensing, and robust frost prediction.</p><span class="text-link">View this area <span aria-hidden="true">→</span></span></a>
+        </div>
+      </div>
+    </section>
 
-    <p>
-        My research focuses on IoT, multimodal sensing,
-        embedded systems, and machine learning for
-        human-centered sensing systems.
-    </p>
+    <section class="section shell" aria-labelledby="featured-heading">
+      <div class="section-heading"><div><p class="eyebrow">Selected work</p><h2 id="featured-heading">Recent systems and results</h2></div><a class="text-link standalone" href="publications.html">All publications <span aria-hidden="true">→</span></a></div>
+      <div class="feature-list">
+        <article class="feature-row"><div class="feature-meta"><span>2026</span><span>HumanSys</span></div><div><h3>Only Speaking FACTs</h3><p>A foundation-model pipeline that turns privacy-preserving IoT and vibration streams into temporally grounded descriptions of daily routines.</p></div><a href="https://doi.org/10.1145/3842436.3843810" aria-label="Read Only Speaking FACTs">Paper ↗</a></article>
+        <article class="feature-row"><div class="feature-meta"><span>2026</span><span>CHASE</span></div><div><h3>AlzGood</h3><p>An LLM-guided framework for installing and validating remote-care sensing systems with nonexpert users in real homes.</p></div><a href="https://doi.org/10.1109/CHASE69719.2026.00087" aria-label="Read AlzGood">Paper ↗</a></article>
+        <article class="feature-row"><div class="feature-meta"><span>2025</span><span>Best Paper</span></div><div><h3>RRAR</h3><p>Cross-modal pretraining from public near-surface audio to real-world structural vibration, improving comparison methods by 13% on average.</p></div><a href="https://doi.org/10.1145/3737901.3768365" aria-label="Read RRAR">Paper ↗</a></article>
+        <article class="feature-row"><div class="feature-meta"><span>2026</span><span>Best Paper</span></div><div><h3>GEM</h3><p>A gear-based environment-integrated mobility system with constrained planning and validation from a 3×3 prototype to 64×64 simulations.</p></div><a href="https://arxiv.org/abs/2505.10546" aria-label="Read GEM">Paper ↗</a></article>
+      </div>
+    </section>
 
-    <nav>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="resume.pdf">Resume</a>
-        <a href="https://github.com/YOUR-USERNAME">GitHub</a>
-    </nav>
+    <section class="section section-dark"><div class="shell split-callout"><div><p class="eyebrow light">Current direction</p><h2>Natural-language interfaces for continuous sensing</h2></div><div><p>I am investigating how signal processing, efficient tokenization, learned representations, and language models can support grounded question answering over long-running IoT data.</p><a class="button light-button" href="contact.html">Start a conversation</a></div></div></section>
 
+    <section class="section shell" aria-labelledby="background-heading">
+      <div class="section-heading"><div><p class="eyebrow">Background</p><h2 id="background-heading">Research in context</h2></div></div>
+      <div class="fact-grid">
+        <article><p class="kicker">Education</p><h3>Ph.D. in EECS</h3><p>University of California, Merced<br>Fall 2023–Present</p><h3>B.S. in CSE</h3><p>University of California, Irvine<br>2019–2022</p></article>
+        <article><p class="kicker">Recognition</p><h3>Best Paper Awards</h3><p>UbiSense ’26 and ACM IASA ’25</p><h3>Best Poster Award</h3><p>ACM SenSys ’23</p></article>
+        <article><p class="kicker">Community</p><h3>Artifact evaluation</h3><p>ACM SenSys ’24 and ACM MobiSys ’24</p><h3>Web Chair</h3><p>ACM BuildSys ’24</p></article>
+      </div>
+    </section>
+  </main>
 
-    <h2 id="research">Research</h2>
-
-    <p>
-        I work on multimodal sensing systems combining
-        vibration, audio, vision, and embedded sensing.
-    </p>
-
-
-    <h2 id="publications">Publications</h2>
-
-    <p>
-        Publications coming soon.
-    </p>
-
-
-    <h2>Resume</h2>
-
-    <p>
-        <a href="resume.pdf">
-            Download my resume (PDF)
-        </a>
-    </p>
-
-</main>
-
+  <footer class="site-footer"><div class="shell footer-grid"><div><strong>Dong Yoon Lee</strong><p>Multimodal sensing · intelligent systems · physical computing</p></div><div class="footer-links"><a href="mailto:dlee267@ucmerced.edu">Email</a><a href="https://scholar.google.com/citations?user=Y2DTte0AAAAJ&amp;hl=en">Google Scholar</a><a href="https://www.linkedin.com/in/dong-yoon-l-203b5611b/">LinkedIn</a><a href="https://github.com/dlee267">GitHub</a></div></div></footer>
 </body>
 </html>
